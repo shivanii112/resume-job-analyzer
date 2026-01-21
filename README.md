@@ -24,12 +24,13 @@ This project leverages **Gemini’s native PDF understanding** (no OCR or text e
 - **Streamlit** – Web UI
 - **Google Gemini API** (AI Studio, API-key based)
 - **google-genai SDK**
-- **dotenv** – Environment variable management
+- **python-dotenv** – Environment variable management
 
 ---
 
 ## 📂 Project Structure
 
+```text
 resume-job-analyzer/
 ├── app.py                 # Streamlit UI
 ├── analyzer.py            # Gemini PDF analysis logic

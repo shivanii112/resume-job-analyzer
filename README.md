@@ -31,13 +31,13 @@ This project leverages **Gemini’s native PDF understanding** (no OCR or text e
 ## 📂 Project Structure
 
 resume-job-analyzer/
-├── app.py # Streamlit UI
-├── analyzer.py # Gemini PDF analysis logic
-├── prompts.py # Prompt templates
-├── config.py # Gemini client setup
-├── sample_resume.pdf # Sample resume (PDF)
-├── sample_job.pdf # Sample job description (PDF)
-├── requirements.txt # Dependencies
-├── .env.example # Environment variable template
-├── .gitignore # Git ignore rules
-└── README.md # Project documentation
+├── app.py                 # Streamlit UI
+├── analyzer.py            # Gemini PDF analysis logic
+├── prompts.py             # Prompt templates
+├── config.py              # Gemini client setup
+├── sample_resume.pdf      # Sample resume (PDF)
+├── sample_job.pdf         # Sample job description (PDF)
+├── requirements.txt       # Python dependencies
+├── .env.example           # Environment variable template
+├── .gitignore             # Git ignore rules
+└── README.md              # Project documentation
